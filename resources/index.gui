@@ -1,0 +1,55 @@
+<svg>
+  <svg>
+  <svg id="screen1"/> 
+  <rect fill="black" width="100%" height="100%" x="0" y="0">
+<!--   <text id="hrm-label" class="sensor-label" y="50">Your current heart rate</text>
+  <text id="hrm-data" class="sensor-data">Reading...</text> -->
+  <svg>
+    <textarea id="" class="default-label" x="0" y="15">Welcome! Please fill in your age in the companion app and select your preferred workout intensity.</textarea>
+  <use id="med-button" href="#square-button" y="140" height="60"
+    fill="#ffba00" font-family="System-Regular" font-size="10">
+    <set href="#text" attributeName="text-buffer" to="Moderate workout" />
+  </use>
+    <use id="heavy-button" href="#square-button" y="220" height="60"
+    fill="#ffba00" font-family="System-Regular" font-size="10">
+    <set href="#text" attributeName="text-buffer" to="Heavy workout" />
+  </use>
+</svg>
+    </rect>
+  </svg>
+<svg id="screen2" display="none">
+  <rect fill="black" width="100%" height="100%" x="0" y="0" >
+    <rect id="button2" pointer-events="all" width="100%" height="100%" />
+    <textarea id="advice" class="default-label" x="0" y="15">Calculating...</textarea>
+  <use id="start-button" href="#square-button" y="140" height="60"
+    fill="#ffba00" font-family="System-Regular" font-size="10">
+    <set href="#text" attributeName="text-buffer" to="Let's go!" />
+  </use>
+    <use id="backbtn" href="#square-button" y="220" height="60"
+    fill="#ffba00" font-family="System-Regular" font-size="10">
+    <set href="#text" attributeName="text-buffer" to="<- Go back" />
+  </use>
+  <svg id="hr-moderate" display="none">
+      <rect id="test" fill="black" width="100%" height="100%" x="0" y="0" >
+        <text id="hrm-label2" class="default-label" y="40">Your current heart rate</text>
+        <textarea id="hr-text" class="hr-data" x="0" y="70"></textarea>
+        <textarea id="warning-field" class="default-label" x="0" y="170">Calculating...</textarea>
+        <use id="quit-btn" href="#square-button" y="220" height="60"
+    fill="#ffba00" font-family="System-Regular" font-size="10">
+    <set href="#text" attributeName="text-buffer" to="<- Quit excersize" />
+  </use>
+      </rect>
+    </svg>
+  </rect>
+</svg>
+  <svg id="screen3" display="none">
+    <svg>
+    <rect id="startbutton" pointer-events="all" width="100%" height="100%" fill="red" />
+    <use id="med-button" href="#square-button" y="70" height="60"
+    fill="#ffba00" font-family="System-Regular" font-size="10">
+    <set href="#text" attributeName="text-buffer" to="Start heavy workout" />
+      <rect width="100%" height="20" x="0" y="0" />
+  </use>
+    </svg>
+  </svg>
+</svg>

@@ -1,0 +1,43 @@
+.application-fill           { fill: fb-yellow; }
+.foreground-fill            { fill: fb-white; }
+.background-fill            { fill: fb-black; }
+
+.sensor-label {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 42;
+  font-size: 16;
+  x: 50%;
+  y: $+5;
+}
+
+.default-label {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 160;
+  font-size: 24;
+  x: 50%;
+  y: $+5;
+}
+
+.hr-data {
+  font-family: System-Bold;
+  fill: white;
+  text-anchor: middle;
+  text-length: 42;
+  font-size: 76;
+  x: 50%;
+  y: 50%;
+}
+.sensor-data {
+  font-family: System-Light;
+  fill: orange;
+  text-anchor: middle;
+  text-length: 64;
+  font-size: 16;
+  x: 50%;
+  y: $;
+}
+
