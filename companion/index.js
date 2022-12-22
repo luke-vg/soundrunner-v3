@@ -14,6 +14,7 @@ function sendValue(key, val) {
     });
   }
 }
+
 function sendSettingData(data) {
   if (messaging.peerSocket.readyState === messaging.peerSocket.OPEN) {
     messaging.peerSocket.send(data);
